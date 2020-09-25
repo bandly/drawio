@@ -1,1 +1,98 @@
-<mxfile host="app.diagrams.net" modified="2020-09-18T03:14:24.068Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" version="13.7.3" etag="FD9Yr5AD-cuD9YIRtIpa" type="github"><diagram id="VcfL2nemZTa4poCGGUqX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-25T06:37:55.594Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="geqEsm0RLxbCTtJ951g3" version="13.7.4" type="github">
+  <diagram id="VcfL2nemZTa4poCGGUqX" name="Page-1">
+    <mxGraphModel dx="1504" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ommac40RqtDusDVJaKAk-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ommac40RqtDusDVJaKAk-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-59" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="260" width="470" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-58" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="640" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ommac40RqtDusDVJaKAk-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-57" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="640" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ommac40RqtDusDVJaKAk-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-1" value="" style="image;html=1;image=img/lib/clip_art/computers/Netbook_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="170" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ommac40RqtDusDVJaKAk-2" target="Ommac40RqtDusDVJaKAk-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-2" value="" style="image;html=1;image=img/lib/clip_art/telecommunication/iPhone_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="630" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ommac40RqtDusDVJaKAk-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-4" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="50" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ommac40RqtDusDVJaKAk-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-10" value="SLB弹性负载" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="417.5" y="160" width="55" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-13" value="nginx应用介入服务器/web前端" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="465" y="270" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-16" value="nginx应用介入服务器 /web前端" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="275" y="270" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-18" value="java 类服务集群" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="220" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-20" value="C++类服务集群" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="350" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-21" value="运营类服务集群" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="465" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-30" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1087.75" width="60" height="64.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-33" value="缓存服务集群" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="510" y="620" width="95.24" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-38" value="mysql数据服务集群" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="270" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-39" value="" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="190" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-40" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1120" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-41" value="" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="240" y="1050" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-42" value="" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="60" y="970" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ommac40RqtDusDVJaKAk-67" value="大数据服务集群" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="605.24" y="435" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
