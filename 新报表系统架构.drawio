@@ -1,1 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2020-09-16T15:03:50.373Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="a0Cl015ImlqLJkglBGfo" version="13.7.1" type="github"><diagram id="7htymyYnjj1iP1DrK9z5" name="Page-1">5Zlbb5swFMc/jR87gY3BPEJC1odt6lRpl0cCboJGcGRIk/TTzwY73Bw1nZrL1JfWPr7h3zk+/rsFaLLafebxevmVpTQH0Ep3AE0BhDb0ifglLfvG4iG7MSx4lqpOreExe6HKaCnrJktp2etYMZZX2bpvTFhR0KTq2WLO2bbf7Ynl/VXX8YKODI9JnI+tP7O0WjZWAr3Wfk+zxVKvbLt+07KKdWe1k3IZp2zbMaEIoAlnrGpKq92E5hKe5tKMmx1pPXwYp0V1yoAZd77fPXy7f4EW//Hlbv4rerbu1CzPcb5RGwaRC0IMyAxEBAQeIAREGPg+CJQny2qv4XC2KVIq57cBCrfLrKKP6ziRrVsRDsK2rFa5alYrUV7R3dEt2AcwIqIoW9GK70UXPYAoliqYXFXdtp7BOnCWHa/oYbEKhsVh5paXKChkb8DnGPAREDogcCU1ATH0QOSBIAKBLQu+BYh7fY59jNAZc7ShgaN7Lo62ZwDpgXAKfLsGiUGIgPykmfwpQpQIolgxDlBdIBJtY/HtqzNGzuuQoXVJyNqjXchDSiJJrWWxzIpFTgOZQAWONOMit2askC1sIz//AgQdC/cI2gaCrgGgbZ2NoOm8uyCw6tMtUmQAyKQ+5j4IQxmLMoLxUcop28xbyhc49+iEmDQl0PPFJDYe/AE/UQgcENo6uR4nejxuC8YvFLfD9Hpy3MKzUXaNcSvIhk0yncobSgSwH9Y5VDTN6vQqFIAowBu8wg4E9zpZXPsOg6Y7DEsBIEk6dShPJFJfAHduECmGN4eUjJAmmzmtJQCW+PygDlahFNwacajSBglqsrWADTqi4HaU7EDIkquj9k8XB0853ekUS4tUFadJHpdllghjWcW8GptHCGk6eny9CrCr9Q2AtI3TPK6y5/70JmpqhQeWiYVb9WY55rOgpxAyiCdUjeq+ugYTOXZ/IjScSKBa0Go0Ue3Ew7b/3a/oDaLvA/jVGVwbI3ec6leMjyTLS/kVvqNf/yMHDiWsq+X1Wx04FBCY4Ms6EI0c+GefZwWAbrySF04xL9cHh1xTaeH+Mwyj8V2FTHrWP9ddhQzPsDPmNMGJ73+JivXJdT1t+N1tnUpW1qG279YeKM/EvilXxlNPGLSaCHxV11/tjvQGJ2j4fjn1KKKhlvcunEsNj9APfEdi9E5+xeRcfhXV9g/nTff23w8o+gs=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-27T07:25:05.347Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="_WeEvE6HZq2cviylLoIX" version="13.7.5" type="github">
+  <diagram id="7htymyYnjj1iP1DrK9z5" name="Page-1">
+    <mxGraphModel dx="1504" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Fr4Q-PNHz20rVL-bXEv0-1" value="浏览器" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="60" width="510" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ScTePoHlh0UVUIUKTLRO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.367;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Fr4Q-PNHz20rVL-bXEv0-17" target="ScTePoHlh0UVUIUKTLRO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ScTePoHlh0UVUIUKTLRO-5" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;校验登录 成功则转发，失败则返回&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ScTePoHlh0UVUIUKTLRO-4">
+          <mxGeometry x="0.3371" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fr4Q-PNHz20rVL-bXEv0-17" value="网关 / 接口分发" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="240" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr4Q-PNHz20rVL-bXEv0-20" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="405" y="140" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr4Q-PNHz20rVL-bXEv0-26" value="数据集查询管理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr4Q-PNHz20rVL-bXEv0-27" value="工作薄管理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr4Q-PNHz20rVL-bXEv0-28" value="cube 定时任务触发器" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr4Q-PNHz20rVL-bXEv0-29" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="304" y="400" as="sourcePoint" />
+            <mxPoint x="414" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fr4Q-PNHz20rVL-bXEv0-30" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="300" as="sourcePoint" />
+            <mxPoint x="550" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fr4Q-PNHz20rVL-bXEv0-32" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="695" as="sourcePoint" />
+            <mxPoint x="260" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fr4Q-PNHz20rVL-bXEv0-33" value="kylin dababase&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="740" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr4Q-PNHz20rVL-bXEv0-34" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0.667;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="Fr4Q-PNHz20rVL-bXEv0-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="520" as="sourcePoint" />
+            <mxPoint x="360" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fr4Q-PNHz20rVL-bXEv0-35" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="520" as="sourcePoint" />
+            <mxPoint x="580" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ScTePoHlh0UVUIUKTLRO-2" value="账号管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ScTePoHlh0UVUIUKTLRO-3" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;exitX=0.692;exitY=-0.083;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ScTePoHlh0UVUIUKTLRO-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="390" as="sourcePoint" />
+            <mxPoint x="340" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ScTePoHlh0UVUIUKTLRO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ScTePoHlh0UVUIUKTLRO-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ScTePoHlh0UVUIUKTLRO-6" value="kylin api 封装，中间件&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="540" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ScTePoHlh0UVUIUKTLRO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ScTePoHlh0UVUIUKTLRO-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ScTePoHlh0UVUIUKTLRO-11" value="构建模型" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ScTePoHlh0UVUIUKTLRO-10">
+          <mxGeometry x="0.2533" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ScTePoHlh0UVUIUKTLRO-9" value="" style="image;html=1;image=img/lib/clip_art/people/Suit_Man_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="770" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
