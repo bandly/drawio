@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T03:50:53.284Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="EEZebKmjHlgbbWqe6vhv" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-19T05:40:09.267Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="0ZNT-Qqi4ugWD5cvPLIV" version="14.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1298" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -293,18 +293,18 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p-RLsPjVevs1HbreNlb5-0" value="历史指标统计表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="p-RLsPjVevs1HbreNlb5-0" value="历史指标统计表" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="387.5" y="3260" width="145" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p-RLsPjVevs1HbreNlb5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="p-RLsPjVevs1HbreNlb5-1">
+        <mxCell id="p-RLsPjVevs1HbreNlb5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="p-RLsPjVevs1HbreNlb5-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="452.5" y="3260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p-RLsPjVevs1HbreNlb5-1" value="baas-stat&lt;br&gt;定时任务统计二次加工" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="p-RLsPjVevs1HbreNlb5-1" value="baas-stat&lt;br&gt;定时任务统计二次加工" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="380" y="3090" width="145" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="p-RLsPjVevs1HbreNlb5-3" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="chvPgAmQDW7gMliFu5OJ-18">
+        <mxCell id="p-RLsPjVevs1HbreNlb5-3" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="chvPgAmQDW7gMliFu5OJ-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="455" y="2990" as="sourcePoint" />
             <mxPoint x="446" y="3080" as="targetPoint" />
@@ -313,14 +313,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="p-RLsPjVevs1HbreNlb5-4" value="业务数据表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="p-RLsPjVevs1HbreNlb5-4" value="业务数据表" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="45" y="3100" width="145" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p-RLsPjVevs1HbreNlb5-6" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="p-RLsPjVevs1HbreNlb5-6" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210" y="3129.5" as="sourcePoint" />
             <mxPoint x="360" y="3129.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="T7Q-4LyaR41bASMH3_Tc-0" value="baas-ops-gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="3400" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T7Q-4LyaR41bASMH3_Tc-1" value="baas-ops-mgr&lt;br&gt;管理后台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="3580" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T7Q-4LyaR41bASMH3_Tc-2" value="baas-stat&lt;br&gt;数据统计服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="740" y="3390" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T7Q-4LyaR41bASMH3_Tc-3" value="baas-advert&lt;br&gt;广告服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="3400" width="145" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
