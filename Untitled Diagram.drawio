@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T04:01:18.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="6hw8hSntCOxiSdreZkiq" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-13T01:19:15.854Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="LOGu7MRQI5QvHmrSDJpZ" version="20.2.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1298" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -840,8 +840,8 @@
         <mxCell id="rGGl0aUjetAtQB3HownT-62" value="通讯录人员更新" style="text;html=1;strokeColor=#B20000;fillColor=#e51400;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1110" y="9560" width="100" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="rGGl0aUjetAtQB3HownT-63" value="授权同步逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="170" y="10070" width="105" height="20" as="geometry" />
+        <mxCell id="rGGl0aUjetAtQB3HownT-63" value="授权同步流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="378.5" y="10180" width="105" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rGGl0aUjetAtQB3HownT-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rGGl0aUjetAtQB3HownT-64">
           <mxGeometry relative="1" as="geometry">
@@ -872,16 +872,16 @@
           <mxGeometry x="180" y="10530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rGGl0aUjetAtQB3HownT-72" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="186.5" y="11200" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="11410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rGGl0aUjetAtQB3HownT-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rGGl0aUjetAtQB3HownT-67">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="300" y="10400" as="sourcePoint" />
-            <mxPoint x="320" y="11240" as="targetPoint" />
+            <mxPoint x="310" y="11440" as="targetPoint" />
             <Array as="points">
               <mxPoint x="560" y="10360" />
               <mxPoint x="560" y="10960" />
-              <mxPoint x="560" y="11240" />
+              <mxPoint x="560" y="11440" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -932,8 +932,20 @@
         <mxCell id="rGGl0aUjetAtQB3HownT-86" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="400" y="10865" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rGGl0aUjetAtQB3HownT-87" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rGGl0aUjetAtQB3HownT-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rGGl0aUjetAtQB3HownT-87" target="rGGl0aUjetAtQB3HownT-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rGGl0aUjetAtQB3HownT-87" value="根据应用白名单表确定同步策略(IMC/联运)" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="11100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rGGl0aUjetAtQB3HownT-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rGGl0aUjetAtQB3HownT-90" target="rGGl0aUjetAtQB3HownT-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rGGl0aUjetAtQB3HownT-90" value="同步isv" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="11240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rGGl0aUjetAtQB3HownT-93" value="标红的是本次新增的" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="910" y="9330" width="80" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
