@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T03:48:37.390Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ia0CoFNvnxLfksj_9nuK" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-07T01:57:23.098Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="4Dj510oUmXeQCSr_9GG6" version="21.1.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2893" dy="1010" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2901" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1074,16 +1074,16 @@
             <mxPoint x="1000" y="12740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-12" value=":paas-app-adapter:讯盟" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-12" value=":paas-app-adapter:讯盟" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="540" y="13360" width="147.5" height="970" as="geometry" />
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="GoHI7xiSxXLHgAc4_pUd-12">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="GoHI7xiSxXLHgAc4_pUd-12" vertex="1">
           <mxGeometry x="73.5" y="270" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="GoHI7xiSxXLHgAc4_pUd-12">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="GoHI7xiSxXLHgAc4_pUd-12" vertex="1">
           <mxGeometry x="73.5" y="410" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-48" value="发送异步消息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="GoHI7xiSxXLHgAc4_pUd-12">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-48" value="发送异步消息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="GoHI7xiSxXLHgAc4_pUd-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="342.5" y="320" as="sourcePoint" />
             <Array as="points">
@@ -1092,102 +1092,102 @@
             <mxPoint x="140" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-49" value="保存授权应用可见范围" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GoHI7xiSxXLHgAc4_pUd-48">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-49" value="保存授权应用可见范围" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GoHI7xiSxXLHgAc4_pUd-48" vertex="1" connectable="0">
           <mxGeometry x="-0.894" y="-1" relative="1" as="geometry">
             <mxPoint x="24" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-59" value="调用isv同步接口" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="GoHI7xiSxXLHgAc4_pUd-12" target="GoHI7xiSxXLHgAc4_pUd-17">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-59" value="调用isv同步接口" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" parent="GoHI7xiSxXLHgAc4_pUd-12" target="GoHI7xiSxXLHgAc4_pUd-17" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="90" y="780" as="sourcePoint" />
             <mxPoint x="140" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-61" value="响应是否成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="GoHI7xiSxXLHgAc4_pUd-12">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-61" value="响应是否成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="GoHI7xiSxXLHgAc4_pUd-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="623.5" y="830" as="sourcePoint" />
             <mxPoint x="83.5" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-63" value="发送smn消息" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="GoHI7xiSxXLHgAc4_pUd-12" target="GoHI7xiSxXLHgAc4_pUd-18">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-63" value="发送smn消息" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" parent="GoHI7xiSxXLHgAc4_pUd-12" target="GoHI7xiSxXLHgAc4_pUd-18" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="80" y="910" as="sourcePoint" />
             <mxPoint x="140" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-64" value="如果isv调用失败则发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GoHI7xiSxXLHgAc4_pUd-63">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-64" value="如果isv调用失败则发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GoHI7xiSxXLHgAc4_pUd-63" vertex="1" connectable="0">
           <mxGeometry x="-0.9705" y="3" relative="1" as="geometry">
             <mxPoint x="46" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-15" value=":baas-app:讯盟" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-15" value=":baas-app:讯盟" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="800" y="13360" width="160" height="960" as="geometry" />
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="GoHI7xiSxXLHgAc4_pUd-15">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="GoHI7xiSxXLHgAc4_pUd-15" vertex="1">
           <mxGeometry x="74" y="270" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-16" value=":mgr:华为" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-16" value=":mgr:华为" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="247.5" y="13360" width="157.5" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="GoHI7xiSxXLHgAc4_pUd-16">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="GoHI7xiSxXLHgAc4_pUd-16" vertex="1">
           <mxGeometry x="73.75" y="270" width="10" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-17" value=":isv:联运" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-17" value=":isv:联运" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1100" y="13360" width="160" height="980" as="geometry" />
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="GoHI7xiSxXLHgAc4_pUd-17">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="GoHI7xiSxXLHgAc4_pUd-17" vertex="1">
           <mxGeometry x="75" y="770" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-18" value=":SMN:联运" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-18" value=":SMN:联运" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1400" y="13360" width="70" height="1220" as="geometry" />
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-19" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-19" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-150" y="13605" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-38" value="应用绑定" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="GoHI7xiSxXLHgAc4_pUd-16">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-38" value="应用绑定" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="GoHI7xiSxXLHgAc4_pUd-16" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="-100" y="13644.5" as="sourcePoint" />
             <mxPoint x="20" y="13644.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-41" value="调用应用订阅接口" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" target="GoHI7xiSxXLHgAc4_pUd-40" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GoHI7xiSxXLHgAc4_pUd-16">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-41" value="调用应用订阅接口" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GoHI7xiSxXLHgAc4_pUd-16" target="GoHI7xiSxXLHgAc4_pUd-40" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="546" y="13630" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-43" value="保存并创建应用" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="GoHI7xiSxXLHgAc4_pUd-42" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GoHI7xiSxXLHgAc4_pUd-12">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-43" value="保存并创建应用" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GoHI7xiSxXLHgAc4_pUd-12" target="GoHI7xiSxXLHgAc4_pUd-42" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="804" y="13630" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-44" value="响应成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="GoHI7xiSxXLHgAc4_pUd-42" parent="WIyWlLk6GJQsqaUBKTNV-1" target="GoHI7xiSxXLHgAc4_pUd-12">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-44" value="响应成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GoHI7xiSxXLHgAc4_pUd-42" target="GoHI7xiSxXLHgAc4_pUd-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="804" y="13706" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-45" value="保存绑定关系&lt;br&gt;t_baas_app_mapping" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GoHI7xiSxXLHgAc4_pUd-44">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-45" value="保存绑定关系&lt;br&gt;t_baas_app_mapping" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GoHI7xiSxXLHgAc4_pUd-44" vertex="1" connectable="0">
           <mxGeometry x="0.8613" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-46" value="应用订阅成功响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="GoHI7xiSxXLHgAc4_pUd-16">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-46" value="应用订阅成功响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="GoHI7xiSxXLHgAc4_pUd-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="590" y="13690" as="sourcePoint" />
             <mxPoint x="510" y="13690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-51" value="保存同步配置" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="GoHI7xiSxXLHgAc4_pUd-50" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GoHI7xiSxXLHgAc4_pUd-16">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-51" value="保存同步配置" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GoHI7xiSxXLHgAc4_pUd-16" target="GoHI7xiSxXLHgAc4_pUd-50" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="536" y="13770" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GoHI7xiSxXLHgAc4_pUd-53" target="GoHI7xiSxXLHgAc4_pUd-12">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GoHI7xiSxXLHgAc4_pUd-53" target="GoHI7xiSxXLHgAc4_pUd-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="610" y="14080" width="9" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-54" value="发送异步消息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.1;exitY=0.563;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="GoHI7xiSxXLHgAc4_pUd-53" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GoHI7xiSxXLHgAc4_pUd-50">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-54" value="发送异步消息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.1;exitY=0.563;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GoHI7xiSxXLHgAc4_pUd-50" target="GoHI7xiSxXLHgAc4_pUd-53" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="640" y="13810" as="sourcePoint" />
             <Array as="points">
@@ -1197,16 +1197,53 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-52" value="同步响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="GoHI7xiSxXLHgAc4_pUd-50" parent="WIyWlLk6GJQsqaUBKTNV-1" target="GoHI7xiSxXLHgAc4_pUd-16">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-52" value="同步响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GoHI7xiSxXLHgAc4_pUd-50" target="GoHI7xiSxXLHgAc4_pUd-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="543.5" y="13846" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-65" value="这里mgr 会分别调用讯盟的两个接口&lt;br&gt;应用订阅接口和保存同步配置接口" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-65" value="这里mgr 会分别调用讯盟的两个接口&lt;br&gt;应用订阅接口和保存同步配置接口" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="150" y="13665" width="140" height="195" as="geometry" />
         </mxCell>
-        <mxCell id="GoHI7xiSxXLHgAc4_pUd-66" value="这里接收到异步消息后，会开启线程进行尝试isv 同步操作，由于保存同步配置，和保存用户授权可见范围，消息的时间差问题，当同步isv失败后，会存在多次调用isv 的情况" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="GoHI7xiSxXLHgAc4_pUd-66" value="这里接收到异步消息后，会开启线程进行尝试isv 同步操作，由于保存同步配置，和保存用户授权可见范围，消息的时间差问题，当同步isv失败后，会存在多次调用isv 的情况" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="427.25" y="14000" width="156.5" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="RKyKaaQQpvZdcIbeZVJK-0" value=":讯盟" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="555" y="14920" width="147.5" height="970" as="geometry" />
+        </mxCell>
+        <mxCell id="RKyKaaQQpvZdcIbeZVJK-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RKyKaaQQpvZdcIbeZVJK-0" source="RKyKaaQQpvZdcIbeZVJK-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RKyKaaQQpvZdcIbeZVJK-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="RKyKaaQQpvZdcIbeZVJK-0">
+          <mxGeometry x="73.5" y="270" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RKyKaaQQpvZdcIbeZVJK-11" value=":mgr:华为" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="262.5" y="14920" width="157.5" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="RKyKaaQQpvZdcIbeZVJK-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="RKyKaaQQpvZdcIbeZVJK-11">
+          <mxGeometry x="73.75" y="270" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="RKyKaaQQpvZdcIbeZVJK-13" value=":isv:联运" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="890" y="14910" width="160" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="RKyKaaQQpvZdcIbeZVJK-15" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-135" y="15165" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RKyKaaQQpvZdcIbeZVJK-16" value="应用绑定" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="RKyKaaQQpvZdcIbeZVJK-11">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-85" y="15204.5" as="sourcePoint" />
+            <mxPoint x="35" y="15204.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RKyKaaQQpvZdcIbeZVJK-17" value="调用应用订阅和同步配置接口" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RKyKaaQQpvZdcIbeZVJK-11" target="RKyKaaQQpvZdcIbeZVJK-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="561" y="15190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RKyKaaQQpvZdcIbeZVJK-31" value="向isv同步&lt;br&gt;包括，同步租户信息，同步应用信息&lt;br&gt;同步组织信息&lt;br&gt;同步人员授权信息&lt;br&gt;接口请求需要签名 header 中添加authToken&lt;br&gt;authToken 生产规则如下&lt;br&gt;https://support.huaweicloud.com/accessg-marketplace/zh-cn_topic_0070649135.html&lt;br&gt;其中用到了一个key,该key 是从同步配置中拿到的。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="720" y="15052" width="240" height="178" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
