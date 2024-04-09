@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-09T08:31:36.476Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="LFazmdke840GYQuug6nu" version="24.2.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-09T09:45:25.807Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="qSZ5ymCZ_TwgA-1-5HUo" version="24.2.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2133" dy="1846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2719,6 +2719,186 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-1" value=":接入应用" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="100" height="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="oQ3DWBcH3uf8bnfxrbz_-1">
+          <mxGeometry x="45" y="120" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="oQ3DWBcH3uf8bnfxrbz_-1">
+          <mxGeometry x="45" y="240" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-19" value="2.1 病症自查" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="oQ3DWBcH3uf8bnfxrbz_-18" parent="oQ3DWBcH3uf8bnfxrbz_-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-80" y="245" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-21" value="2.2 输入主诉" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="oQ3DWBcH3uf8bnfxrbz_-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="295" />
+            </Array>
+            <mxPoint x="55" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-2" value=":数字医生(讯盟)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="100" height="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="oQ3DWBcH3uf8bnfxrbz_-2">
+          <mxGeometry x="45" y="120" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="oQ3DWBcH3uf8bnfxrbz_-2">
+          <mxGeometry x="45" y="320" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-11" value="2.3 调用IF4接口，type=2 获取初步诊断" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="oQ3DWBcH3uf8bnfxrbz_-2" target="oQ3DWBcH3uf8bnfxrbz_-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-310" y="325" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-12" value="返回初步诊断结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="oQ3DWBcH3uf8bnfxrbz_-2" source="oQ3DWBcH3uf8bnfxrbz_-10">
+          <mxGeometry x="0.0028" relative="1" as="geometry">
+            <mxPoint x="-310" y="395" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-53" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="oQ3DWBcH3uf8bnfxrbz_-2">
+          <mxGeometry x="45" y="510" width="10" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-54" value="3.2 调用IF2接口，根据主诉查询问诊问题" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="oQ3DWBcH3uf8bnfxrbz_-2" target="oQ3DWBcH3uf8bnfxrbz_-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-310" y="515" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-55" value="返回问题列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="oQ3DWBcH3uf8bnfxrbz_-2" source="oQ3DWBcH3uf8bnfxrbz_-2">
+          <mxGeometry x="0.0028" relative="1" as="geometry">
+            <mxPoint x="-310" y="585" as="targetPoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="30" y="590" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-7" value="1.1 调用IF1接口获取accessToken" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="oQ3DWBcH3uf8bnfxrbz_-6" parent="1" source="oQ3DWBcH3uf8bnfxrbz_-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="205" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-8" value="返回token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="oQ3DWBcH3uf8bnfxrbz_-6" parent="1" target="oQ3DWBcH3uf8bnfxrbz_-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-13" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-50" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="205" y="560" width="10" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-51" value="3.1 不满意结果，&lt;div&gt;填写详细病症&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" target="oQ3DWBcH3uf8bnfxrbz_-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="565" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-56" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="540" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-58" value="3.4 用户选择问题选项，判断选项是否包含子问题" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="780" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="245" y="810" />
+            </Array>
+            <mxPoint x="220" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-59" value="3.3 根据 controlType逐个展示问题" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="720" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="245" y="750" />
+            </Array>
+            <mxPoint x="220" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-60" value="3.5 关联了子问题调用IF3接口，查询子问题" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="870" as="sourcePoint" />
+            <mxPoint x="570" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-61" value="返回子问题列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0056" relative="1" as="geometry">
+            <mxPoint x="215" y="940" as="targetPoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="575" y="940" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-62" value="3.6 回答完所有问题和子问题，组装问题和答案" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="215" y="980" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="245" y="1010" />
+            </Array>
+            <mxPoint x="220" y="1010" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-63" value="3.7 携带主诉和问题及答案调用IF4接口，type=3" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="1060" as="sourcePoint" />
+            <mxPoint x="570" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-64" value="返回专业诊断结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0056" relative="1" as="geometry">
+            <mxPoint x="215" y="1130" as="targetPoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="575" y="1130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-65" value=":接入应用" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="160" y="1280" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-66" value=":数字医生(讯盟)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="520" y="1280" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-67" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="205" y="1370" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-68" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="565" y="1370" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-69" value="1.1 调用IF1接口获取accessToken" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" target="oQ3DWBcH3uf8bnfxrbz_-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="1375" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-70" value="返回token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="oQ3DWBcH3uf8bnfxrbz_-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="1445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-71" value="现有如下接口：&lt;div&gt;IF1: 获取accessToken&lt;/div&gt;&lt;div&gt;IF2: 查询预问诊问题&lt;/div&gt;&lt;div&gt;IF3:查询预问诊子问题&lt;/div&gt;&lt;div&gt;IF4: 诊断结果&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-72" value="现有如下接口：&lt;div&gt;IF1: 获取accessToken&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;IF5: 获取用户订单数据&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="701" y="1355" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-73" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="205" y="1490" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-74" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="565" y="1490" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-75" value="2.1 调用IF5 接口获取用户订单数据" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" target="oQ3DWBcH3uf8bnfxrbz_-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="1495" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-76" value="返回订单数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="oQ3DWBcH3uf8bnfxrbz_-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="1565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
