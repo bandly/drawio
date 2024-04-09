@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-09T09:45:25.807Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="qSZ5ymCZ_TwgA-1-5HUo" version="24.2.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-09T11:41:42.780Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="fsE2c5u068QnMd34HzQO" version="24.2.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2133" dy="1846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2715,7 +2715,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_eZTzZEnqBUPutZIco6S" name="医疗">
-    <mxGraphModel dx="1306" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1451" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2880,7 +2880,7 @@
         <mxCell id="oQ3DWBcH3uf8bnfxrbz_-71" value="现有如下接口：&lt;div&gt;IF1: 获取accessToken&lt;/div&gt;&lt;div&gt;IF2: 查询预问诊问题&lt;/div&gt;&lt;div&gt;IF3:查询预问诊子问题&lt;/div&gt;&lt;div&gt;IF4: 诊断结果&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="650" y="390" width="140" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-72" value="现有如下接口：&lt;div&gt;IF1: 获取accessToken&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;IF5: 获取用户订单数据&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-72" value="现有如下接口：&lt;div&gt;IF1: 获取accessToken&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;IF5: 获取用户订阅订单数据&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="701" y="1355" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="oQ3DWBcH3uf8bnfxrbz_-73" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
@@ -2889,14 +2889,15 @@
         <mxCell id="oQ3DWBcH3uf8bnfxrbz_-74" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="565" y="1490" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-75" value="2.1 调用IF5 接口获取用户订单数据" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" target="oQ3DWBcH3uf8bnfxrbz_-74">
+        <mxCell id="oQ3DWBcH3uf8bnfxrbz_-75" value="2.1 调用IF5 接口获取用户订阅订单数据" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" target="oQ3DWBcH3uf8bnfxrbz_-74">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="210" y="1495" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oQ3DWBcH3uf8bnfxrbz_-76" value="返回订单数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="oQ3DWBcH3uf8bnfxrbz_-74">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.0028" relative="1" as="geometry">
             <mxPoint x="210" y="1565" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
