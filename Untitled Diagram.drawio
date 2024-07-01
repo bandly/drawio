@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T03:42:15.294Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="iSGYpeqNgQeeHuG3R-xa" version="24.4.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-01T03:45:06.038Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ron_L8yjgqWeEUrY1a7v" version="24.4.9" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2901" dy="2177" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2779,7 +2779,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-0Y6Jl0C7jVi6ozfjKq--24" value="华高&lt;div&gt;1. pc浏览器通过驱动跟扫描仪建立websocket&lt;/div&gt;&lt;div&gt;2.浏览器接收扫描信息&lt;/div&gt;&lt;div&gt;3.浏览通过http上传图片到服务端&lt;/div&gt;&lt;div&gt;4.服务端通过websocket发送上传识别结果到前端&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;佳能&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.pc浏览器通过http发送指令消息到扫描仪并带上服务端上传接口和消息接口&lt;/div&gt;&lt;div&gt;2. 扫描仪主动上传图片到服务端&lt;/div&gt;&lt;div&gt;3.服务端通过websocket发送上传识别结果到前端浏览器&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="-0Y6Jl0C7jVi6ozfjKq--24" value="华高&lt;div&gt;1. pc浏览器通过驱动跟扫描仪建立websocket&lt;/div&gt;&lt;div&gt;2.浏览器接收扫描信息&lt;/div&gt;&lt;div&gt;3.浏览通过http上传图片到服务端&lt;/div&gt;&lt;div&gt;4.服务端通过http响应图片地址到前端&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;佳能&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.pc浏览器通过http发送指令消息到扫描仪并带上服务端上传接口和消息接口&lt;/div&gt;&lt;div&gt;2. 扫描仪主动上传图片到服务端&lt;/div&gt;&lt;div&gt;3.服务端通过websocket发送上传识别结果到前端浏览器&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="755" y="24920" width="285" height="220" as="geometry" />
         </mxCell>
         <mxCell id="-0Y6Jl0C7jVi6ozfjKq--27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
